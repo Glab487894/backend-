@@ -1,0 +1,8 @@
+{
+  "PORT": 3000,
+  "dbUrl": "mongodb+srv://testApp:testApp@cluster0.ikgbb.mongodb.net/testApp?retryWrites=true&w=majority",
+  "dbToken": "token",
+
+  "textInitialization": "Initialization message:  ",
+  "textInfo": "Server message:   "
+}
