@@ -24,7 +24,6 @@ errorLog.connect(__dirname, './error/errorLog.json');
         .catch((err) => {
             console.log(`${textInitialization} failed connection`, {error: err});
             errorLog.addLog(err);
-            return;
         });
 
 // creating app
